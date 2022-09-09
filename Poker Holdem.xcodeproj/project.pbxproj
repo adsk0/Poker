@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36196DFD28CB8403006255AF /* three_of_a_kind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196DFB28CB8403006255AF /* three_of_a_kind.cpp */; };
+		36196E0028CB8D1D006255AF /* straight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196DFE28CB8D1D006255AF /* straight.cpp */; };
+		36196E0328CB918D006255AF /* flush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E0128CB918D006255AF /* flush.cpp */; };
+		36EC759828C965CE005A1018 /* card1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759428C965CD005A1018 /* card1.cpp */; };
+		36EC759928C965CE005A1018 /* card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759528C965CD005A1018 /* card2.cpp */; };
+		36EC75A928C9661C005A1018 /* opponents_card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759A28C9661C005A1018 /* opponents_card2.cpp */; };
+		36EC75AA28C9661C005A1018 /* flops_card1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759B28C9661C005A1018 /* flops_card1.cpp */; };
+		36EC75AB28C9661C005A1018 /* flops_card3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759C28C9661C005A1018 /* flops_card3.cpp */; };
+		36EC75AC28C9661C005A1018 /* turn_card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759F28C9661C005A1018 /* turn_card.cpp */; };
+		36EC75AD28C9661C005A1018 /* flops_card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC75A528C9661C005A1018 /* flops_card2.cpp */; };
+		36EC75AE28C9661C005A1018 /* opponents_card1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC75A628C9661C005A1018 /* opponents_card1.cpp */; };
+		36EC75AF28C9661C005A1018 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC75A728C9661C005A1018 /* main.cpp */; };
+		36EC75B028C9661C005A1018 /* river_card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC75A828C9661C005A1018 /* river_card.cpp */; };
+		36EC75B428C966E2005A1018 /* pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC75B328C966E2005A1018 /* pair.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36EC758828C96558005A1018 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36196DFB28CB8403006255AF /* three_of_a_kind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = three_of_a_kind.cpp; sourceTree = "<group>"; };
+		36196DFC28CB8403006255AF /* three_of_a_kind.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = three_of_a_kind.hpp; sourceTree = "<group>"; };
+		36196DFE28CB8D1D006255AF /* straight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = straight.cpp; sourceTree = "<group>"; };
+		36196DFF28CB8D1D006255AF /* straight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = straight.hpp; sourceTree = "<group>"; };
+		36196E0128CB918D006255AF /* flush.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flush.cpp; sourceTree = "<group>"; };
+		36196E0228CB918D006255AF /* flush.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flush.hpp; sourceTree = "<group>"; };
+		36EC758A28C96558005A1018 /* Poker Holdem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Poker Holdem"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EC759428C965CD005A1018 /* card1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = card1.cpp; path = ../../street/street/card1.cpp; sourceTree = "<group>"; };
+		36EC759528C965CD005A1018 /* card2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = card2.cpp; path = ../../street/street/card2.cpp; sourceTree = "<group>"; };
+		36EC759628C965CD005A1018 /* card1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = card1.hpp; path = ../../street/street/card1.hpp; sourceTree = "<group>"; };
+		36EC759728C965CD005A1018 /* card2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = card2.hpp; path = ../../street/street/card2.hpp; sourceTree = "<group>"; };
+		36EC759A28C9661C005A1018 /* opponents_card2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opponents_card2.cpp; sourceTree = "<group>"; };
+		36EC759B28C9661C005A1018 /* flops_card1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flops_card1.cpp; sourceTree = "<group>"; };
+		36EC759C28C9661C005A1018 /* flops_card3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flops_card3.cpp; sourceTree = "<group>"; };
+		36EC759D28C9661C005A1018 /* opponents_card1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = opponents_card1.hpp; sourceTree = "<group>"; };
+		36EC759E28C9661C005A1018 /* river_card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = river_card.hpp; sourceTree = "<group>"; };
+		36EC759F28C9661C005A1018 /* turn_card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = turn_card.cpp; sourceTree = "<group>"; };
+		36EC75A028C9661C005A1018 /* flops_card3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flops_card3.hpp; sourceTree = "<group>"; };
+		36EC75A128C9661C005A1018 /* opponents_card2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = opponents_card2.hpp; sourceTree = "<group>"; };
+		36EC75A228C9661C005A1018 /* flops_card1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flops_card1.hpp; sourceTree = "<group>"; };
+		36EC75A328C9661C005A1018 /* flops_card2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flops_card2.hpp; sourceTree = "<group>"; };
+		36EC75A428C9661C005A1018 /* turn_card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = turn_card.hpp; sourceTree = "<group>"; };
+		36EC75A528C9661C005A1018 /* flops_card2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flops_card2.cpp; sourceTree = "<group>"; };
+		36EC75A628C9661C005A1018 /* opponents_card1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opponents_card1.cpp; sourceTree = "<group>"; };
+		36EC75A728C9661C005A1018 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36EC75A828C9661C005A1018 /* river_card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = river_card.cpp; sourceTree = "<group>"; };
+		36EC75B228C966E2005A1018 /* pair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pair.hpp; sourceTree = "<group>"; };
+		36EC75B328C966E2005A1018 /* pair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pair.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EC758728C96558005A1018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36EC758128C96558005A1018 = {
+			isa = PBXGroup;
+			children = (
+				36EC758C28C96558005A1018 /* Poker Holdem */,
+				36EC758B28C96558005A1018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36EC758B28C96558005A1018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EC758A28C96558005A1018 /* Poker Holdem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EC758C28C96558005A1018 /* Poker Holdem */ = {
+			isa = PBXGroup;
+			children = (
+				36EC759428C965CD005A1018 /* card1.cpp */,
+				36EC759628C965CD005A1018 /* card1.hpp */,
+				36EC759528C965CD005A1018 /* card2.cpp */,
+				36EC759728C965CD005A1018 /* card2.hpp */,
+				36EC759B28C9661C005A1018 /* flops_card1.cpp */,
+				36EC75A728C9661C005A1018 /* main.cpp */,
+				36196E0128CB918D006255AF /* flush.cpp */,
+				36196E0228CB918D006255AF /* flush.hpp */,
+				36196DFE28CB8D1D006255AF /* straight.cpp */,
+				36196DFF28CB8D1D006255AF /* straight.hpp */,
+				36196DFB28CB8403006255AF /* three_of_a_kind.cpp */,
+				36196DFC28CB8403006255AF /* three_of_a_kind.hpp */,
+				36EC75A228C9661C005A1018 /* flops_card1.hpp */,
+				36EC75A528C9661C005A1018 /* flops_card2.cpp */,
+				36EC75A328C9661C005A1018 /* flops_card2.hpp */,
+				36EC759C28C9661C005A1018 /* flops_card3.cpp */,
+				36EC75A028C9661C005A1018 /* flops_card3.hpp */,
+				36EC75A628C9661C005A1018 /* opponents_card1.cpp */,
+				36EC759D28C9661C005A1018 /* opponents_card1.hpp */,
+				36EC759A28C9661C005A1018 /* opponents_card2.cpp */,
+				36EC75A128C9661C005A1018 /* opponents_card2.hpp */,
+				36EC75A828C9661C005A1018 /* river_card.cpp */,
+				36EC759E28C9661C005A1018 /* river_card.hpp */,
+				36EC759F28C9661C005A1018 /* turn_card.cpp */,
+				36EC75A428C9661C005A1018 /* turn_card.hpp */,
+				36EC75B328C966E2005A1018 /* pair.cpp */,
+				36EC75B228C966E2005A1018 /* pair.hpp */,
+			);
+			path = "Poker Holdem";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EC758928C96558005A1018 /* Poker Holdem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EC759128C96558005A1018 /* Build configuration list for PBXNativeTarget "Poker Holdem" */;
+			buildPhases = (
+				36EC758628C96558005A1018 /* Sources */,
+				36EC758728C96558005A1018 /* Frameworks */,
+				36EC758828C96558005A1018 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poker Holdem";
+			productName = pok2;
+			productReference = 36EC758A28C96558005A1018 /* Poker Holdem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EC758228C96558005A1018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					36EC758928C96558005A1018 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 36EC758528C96558005A1018 /* Build configuration list for PBXProject "Poker Holdem" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36EC758128C96558005A1018;
+			productRefGroup = 36EC758B28C96558005A1018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EC758928C96558005A1018 /* Poker Holdem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EC758628C96558005A1018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EC75B028C9661C005A1018 /* river_card.cpp in Sources */,
+				36EC75B428C966E2005A1018 /* pair.cpp in Sources */,
+				36EC75AB28C9661C005A1018 /* flops_card3.cpp in Sources */,
+				36EC75A928C9661C005A1018 /* opponents_card2.cpp in Sources */,
+				36EC759928C965CE005A1018 /* card2.cpp in Sources */,
+				36196DFD28CB8403006255AF /* three_of_a_kind.cpp in Sources */,
+				36196E0328CB918D006255AF /* flush.cpp in Sources */,
+				36EC75AC28C9661C005A1018 /* turn_card.cpp in Sources */,
+				36EC75AA28C9661C005A1018 /* flops_card1.cpp in Sources */,
+				36196E0028CB8D1D006255AF /* straight.cpp in Sources */,
+				36EC759828C965CE005A1018 /* card1.cpp in Sources */,
+				36EC75AE28C9661C005A1018 /* opponents_card1.cpp in Sources */,
+				36EC75AF28C9661C005A1018 /* main.cpp in Sources */,
+				36EC75AD28C9661C005A1018 /* flops_card2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36EC758F28C96558005A1018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36EC759028C96558005A1018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36EC759228C96558005A1018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36EC759328C96558005A1018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EC758528C96558005A1018 /* Build configuration list for PBXProject "Poker Holdem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EC758F28C96558005A1018 /* Debug */,
+				36EC759028C96558005A1018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EC759128C96558005A1018 /* Build configuration list for PBXNativeTarget "Poker Holdem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EC759228C96558005A1018 /* Debug */,
+				36EC759328C96558005A1018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36EC758228C96558005A1018 /* Project object */;
+}
