@@ -10,8 +10,15 @@
 		36196DFD28CB8403006255AF /* three_of_a_kind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196DFB28CB8403006255AF /* three_of_a_kind.cpp */; };
 		36196E0028CB8D1D006255AF /* straight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196DFE28CB8D1D006255AF /* straight.cpp */; };
 		36196E0328CB918D006255AF /* flush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E0128CB918D006255AF /* flush.cpp */; };
-		36EC759828C965CE005A1018 /* card1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759428C965CD005A1018 /* card1.cpp */; };
-		36EC759928C965CE005A1018 /* card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759528C965CD005A1018 /* card2.cpp */; };
+		36196E1B28CCA84F006255AF /* card1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E1828CCA84F006255AF /* card1.cpp */; };
+		36196E1E28CCA87D006255AF /* card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E1C28CCA87D006255AF /* card2.cpp */; };
+		36196E2128CCA8F3006255AF /* full_house.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E1F28CCA8F3006255AF /* full_house.cpp */; };
+		36196E2428CCEA27006255AF /* four_of_a_kind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E2228CCEA27006255AF /* four_of_a_kind.cpp */; };
+		36196E2728CF71E1006255AF /* straight_flush_clubs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E2528CF71E1006255AF /* straight_flush_clubs.cpp */; };
+		36196E3D28CF7B10006255AF /* royal_flush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E3B28CF7B10006255AF /* royal_flush.cpp */; };
+		36196E4028CF7CC9006255AF /* straight_flush_diamonds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E3E28CF7CC9006255AF /* straight_flush_diamonds.cpp */; };
+		36196E4328CF7E3A006255AF /* straight_flush_hearts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E4128CF7E3A006255AF /* straight_flush_hearts.cpp */; };
+		36196E4628CF7F55006255AF /* straight_flush_spades.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36196E4428CF7F55006255AF /* straight_flush_spades.cpp */; };
 		36EC75A928C9661C005A1018 /* opponents_card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759A28C9661C005A1018 /* opponents_card2.cpp */; };
 		36EC75AA28C9661C005A1018 /* flops_card1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759B28C9661C005A1018 /* flops_card1.cpp */; };
 		36EC75AB28C9661C005A1018 /* flops_card3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC759C28C9661C005A1018 /* flops_card3.cpp */; };
@@ -42,11 +49,25 @@
 		36196DFF28CB8D1D006255AF /* straight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = straight.hpp; sourceTree = "<group>"; };
 		36196E0128CB918D006255AF /* flush.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flush.cpp; sourceTree = "<group>"; };
 		36196E0228CB918D006255AF /* flush.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flush.hpp; sourceTree = "<group>"; };
+		36196E1828CCA84F006255AF /* card1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = card1.cpp; path = ../../../xcode/street/street/card1.cpp; sourceTree = "<group>"; };
+		36196E1928CCA84F006255AF /* card1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = card1.hpp; path = ../../../xcode/street/street/card1.hpp; sourceTree = "<group>"; };
+		36196E1C28CCA87D006255AF /* card2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = card2.cpp; sourceTree = "<group>"; };
+		36196E1D28CCA87D006255AF /* card2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = card2.hpp; sourceTree = "<group>"; };
+		36196E1F28CCA8F3006255AF /* full_house.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = full_house.cpp; sourceTree = "<group>"; };
+		36196E2028CCA8F3006255AF /* full_house.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = full_house.hpp; sourceTree = "<group>"; };
+		36196E2228CCEA27006255AF /* four_of_a_kind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = four_of_a_kind.cpp; sourceTree = "<group>"; };
+		36196E2328CCEA27006255AF /* four_of_a_kind.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = four_of_a_kind.hpp; sourceTree = "<group>"; };
+		36196E2528CF71E1006255AF /* straight_flush_clubs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = straight_flush_clubs.cpp; sourceTree = "<group>"; };
+		36196E2628CF71E1006255AF /* straight_flush_clubs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = straight_flush_clubs.hpp; sourceTree = "<group>"; };
+		36196E3B28CF7B10006255AF /* royal_flush.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = royal_flush.cpp; sourceTree = "<group>"; };
+		36196E3C28CF7B10006255AF /* royal_flush.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = royal_flush.hpp; sourceTree = "<group>"; };
+		36196E3E28CF7CC9006255AF /* straight_flush_diamonds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = straight_flush_diamonds.cpp; sourceTree = "<group>"; };
+		36196E3F28CF7CC9006255AF /* straight_flush_diamonds.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = straight_flush_diamonds.hpp; sourceTree = "<group>"; };
+		36196E4128CF7E3A006255AF /* straight_flush_hearts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = straight_flush_hearts.cpp; sourceTree = "<group>"; };
+		36196E4228CF7E3A006255AF /* straight_flush_hearts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = straight_flush_hearts.hpp; sourceTree = "<group>"; };
+		36196E4428CF7F55006255AF /* straight_flush_spades.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = straight_flush_spades.cpp; sourceTree = "<group>"; };
+		36196E4528CF7F55006255AF /* straight_flush_spades.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = straight_flush_spades.hpp; sourceTree = "<group>"; };
 		36EC758A28C96558005A1018 /* Poker Holdem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Poker Holdem"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36EC759428C965CD005A1018 /* card1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = card1.cpp; path = ../../street/street/card1.cpp; sourceTree = "<group>"; };
-		36EC759528C965CD005A1018 /* card2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = card2.cpp; path = ../../street/street/card2.cpp; sourceTree = "<group>"; };
-		36EC759628C965CD005A1018 /* card1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = card1.hpp; path = ../../street/street/card1.hpp; sourceTree = "<group>"; };
-		36EC759728C965CD005A1018 /* card2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = card2.hpp; path = ../../street/street/card2.hpp; sourceTree = "<group>"; };
 		36EC759A28C9661C005A1018 /* opponents_card2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opponents_card2.cpp; sourceTree = "<group>"; };
 		36EC759B28C9661C005A1018 /* flops_card1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flops_card1.cpp; sourceTree = "<group>"; };
 		36EC759C28C9661C005A1018 /* flops_card3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flops_card3.cpp; sourceTree = "<group>"; };
@@ -96,15 +117,29 @@
 		36EC758C28C96558005A1018 /* Poker Holdem */ = {
 			isa = PBXGroup;
 			children = (
-				36EC759428C965CD005A1018 /* card1.cpp */,
-				36EC759628C965CD005A1018 /* card1.hpp */,
-				36EC759528C965CD005A1018 /* card2.cpp */,
-				36EC759728C965CD005A1018 /* card2.hpp */,
+				36196E1828CCA84F006255AF /* card1.cpp */,
+				36196E1928CCA84F006255AF /* card1.hpp */,
+				36196E1C28CCA87D006255AF /* card2.cpp */,
+				36196E1D28CCA87D006255AF /* card2.hpp */,
 				36EC759B28C9661C005A1018 /* flops_card1.cpp */,
 				36EC75A728C9661C005A1018 /* main.cpp */,
+				36196E2528CF71E1006255AF /* straight_flush_clubs.cpp */,
+				36196E3E28CF7CC9006255AF /* straight_flush_diamonds.cpp */,
+				36196E4128CF7E3A006255AF /* straight_flush_hearts.cpp */,
+				36196E4428CF7F55006255AF /* straight_flush_spades.cpp */,
+				36196E4528CF7F55006255AF /* straight_flush_spades.hpp */,
+				36196E4228CF7E3A006255AF /* straight_flush_hearts.hpp */,
+				36196E3F28CF7CC9006255AF /* straight_flush_diamonds.hpp */,
+				36196E2628CF71E1006255AF /* straight_flush_clubs.hpp */,
+				36196E2228CCEA27006255AF /* four_of_a_kind.cpp */,
+				36196E2328CCEA27006255AF /* four_of_a_kind.hpp */,
+				36196E1F28CCA8F3006255AF /* full_house.cpp */,
+				36196E2028CCA8F3006255AF /* full_house.hpp */,
 				36196E0128CB918D006255AF /* flush.cpp */,
 				36196E0228CB918D006255AF /* flush.hpp */,
 				36196DFE28CB8D1D006255AF /* straight.cpp */,
+				36196E3B28CF7B10006255AF /* royal_flush.cpp */,
+				36196E3C28CF7B10006255AF /* royal_flush.hpp */,
 				36196DFF28CB8D1D006255AF /* straight.hpp */,
 				36196DFB28CB8403006255AF /* three_of_a_kind.cpp */,
 				36196DFC28CB8403006255AF /* three_of_a_kind.hpp */,
@@ -186,18 +221,25 @@
 			files = (
 				36EC75B028C9661C005A1018 /* river_card.cpp in Sources */,
 				36EC75B428C966E2005A1018 /* pair.cpp in Sources */,
+				36196E3D28CF7B10006255AF /* royal_flush.cpp in Sources */,
 				36EC75AB28C9661C005A1018 /* flops_card3.cpp in Sources */,
 				36EC75A928C9661C005A1018 /* opponents_card2.cpp in Sources */,
-				36EC759928C965CE005A1018 /* card2.cpp in Sources */,
+				36196E1E28CCA87D006255AF /* card2.cpp in Sources */,
+				36196E2128CCA8F3006255AF /* full_house.cpp in Sources */,
+				36196E4628CF7F55006255AF /* straight_flush_spades.cpp in Sources */,
+				36196E1B28CCA84F006255AF /* card1.cpp in Sources */,
 				36196DFD28CB8403006255AF /* three_of_a_kind.cpp in Sources */,
+				36196E4028CF7CC9006255AF /* straight_flush_diamonds.cpp in Sources */,
+				36196E2428CCEA27006255AF /* four_of_a_kind.cpp in Sources */,
+				36196E2728CF71E1006255AF /* straight_flush_clubs.cpp in Sources */,
 				36196E0328CB918D006255AF /* flush.cpp in Sources */,
 				36EC75AC28C9661C005A1018 /* turn_card.cpp in Sources */,
 				36EC75AA28C9661C005A1018 /* flops_card1.cpp in Sources */,
 				36196E0028CB8D1D006255AF /* straight.cpp in Sources */,
-				36EC759828C965CE005A1018 /* card1.cpp in Sources */,
 				36EC75AE28C9661C005A1018 /* opponents_card1.cpp in Sources */,
 				36EC75AF28C9661C005A1018 /* main.cpp in Sources */,
 				36EC75AD28C9661C005A1018 /* flops_card2.cpp in Sources */,
+				36196E4328CF7E3A006255AF /* straight_flush_hearts.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
