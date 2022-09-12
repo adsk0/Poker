@@ -4,7 +4,6 @@
 #include "flops_card1.hpp"
 #include "opponents_card2.hpp"
 #include "opponents_card1.hpp"
-#include "card1.hpp"
 #include <cstdlib>
 #include <string>
 #include "card1.hpp"
